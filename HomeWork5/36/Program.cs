@@ -21,6 +21,6 @@ class HM5_36
             sum += array[i];
         }
         Console.WriteLine();
-        Console.Write($"Сумма чётных элементов массива: {sum}");
+        Console.Write($"Сумма нечётных элементов массива: {sum}");
     }
 }
