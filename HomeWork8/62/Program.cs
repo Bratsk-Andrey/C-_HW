@@ -25,7 +25,6 @@ while(temp<=array.GetLength(0) * array.GetLength(1))
 }
 PrintArray(array);
 
-
 void PrintArray(int[,] array)
 {
     for(int i = 0; i < array.GetLength(0); i++)

@@ -4,26 +4,16 @@
 void FillDoubleArray(double[,] matr)
 {
     for(int i = 0; i < matr.GetLength(0); i++)
-    {
         for(int j = 0; j < matr.GetLength(1); j++)
-        {
-            // matr[i, j] = new Random().Next(-10, 10);
-            // A[i] = rnd.NextDouble() * 100;
             matr[i, j] = new Random().NextDouble() * 100;
-        }
-    }
 }
 
 void PrintArray(double[,] matrix)
 {
 for (int i = 0; i < matrix.GetLength(0); i++)
-    {
         for (int j = 0; j < matrix.GetLength(1); j++)
-            {
                 Console.Write($"{matrix[i, j]:f2}   ");
-            }
         Console.WriteLine();
-    }
 }
 
 Console.Clear();

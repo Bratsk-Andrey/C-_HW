@@ -38,6 +38,7 @@ Console.WriteLine("Двумерный массив: ");
 FillArray(array);
 PrintArray(array);
 
+
 for (int i = 0; i < array.GetLength(1); i++)
 {
     avg = 0;
